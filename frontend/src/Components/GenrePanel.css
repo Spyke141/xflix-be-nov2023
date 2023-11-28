@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+.tool-bar {
+  background-color: #202020;
+  padding: 1rem 2rem 2rem 2rem;
+  display: flex;
+  font-family: "Roboto";
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  box-sizing:border-box;
+}
+
+.genre-btn {
+  color: #586069;
+  margin: 10px;
+  padding: 7px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Roboto";
+}
+
+.active-toolbar-button.genre-btn {
+  color: #000;
+  background-color: #ffffff;
+}
+
+.genre-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active-toolbar-button.genre-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.content-rating-btn {
+  color: #586069;
+  margin: 16px;
+  padding: 7px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-family: "Roboto";
+}
+
+.content-rating-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.active-toolbar-button.content-rating-btn {
+  color: #000;
+  background-color: #ffffff;
+}
+
+.active-toolbar-button.content-rating-btn:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.swapIcon::before{
+  margin-left:10px;
+  content: "\e8d5";
+  font-family:"Material Icons";
+  font-weight: 800;
+}
+
+.category-form {
+  background: #fff;
+  color: #181818;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.category-form select {
+  height: 40px;
+  outline: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* @media screen and (max-width: 768px) {
+  .tool-bar {
+    background-color:aqua;
+    flex-wrap:wrap;
+    height:auto;
+  }
+  .genre-btn{
+    flex-wrap: wrap;
+  }
+} */

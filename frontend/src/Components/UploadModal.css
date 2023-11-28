@@ -1,0 +1,17 @@
+.textfield .MuiInputLabel-root,
+.textfield .MuiFormHelperText-root,
+.textfield input[type="date"] {
+  color: #bfbfbf !important;
+}
+
+.textfield input[type="text"],
+.textfield .MuiSelect-select {
+  color: #bfbfbf !important;
+}
+
+.textfield fieldset {
+  border-color: #bfbfbf !important;
+} 
+
+
+
