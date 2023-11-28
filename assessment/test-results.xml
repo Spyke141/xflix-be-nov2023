@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites name="Mocha Tests" time="0.0000" tests="11" failures="1">
-  <testsuite name="Root Suite" timestamp="2023-11-27T22:51:21" tests="0" file="specs/homePageSpec.js" time="0.0000" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-11-28T19:50:12" tests="0" file="specs/homePageSpec.js" time="0.0000" failures="0">
   </testsuite>
-  <testsuite name="XFlix" timestamp="2023-11-27T22:51:21" tests="11" time="0.0000" failures="1">
+  <testsuite name="XFlix" timestamp="2023-11-28T19:50:12" tests="11" time="0.0000" failures="1">
     <testcase name="XFlix &quot;before each&quot; hook for &quot;should display 5 genre buttons on a row&quot;" time="0.0000" classname="&quot;before each&quot; hook for &quot;should display 5 genre buttons on a row&quot;">
       <failure message="`cy.visit()` failed trying to load:
 
